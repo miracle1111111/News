@@ -333,11 +333,11 @@ ai:
   # 完整列表: https://docs.litellm.ai/docs/providers
   # 如果你对于看英文文档比较头疼，那么可以点击页面右下角的 【Ask AI】 ,用中文询问怎么配置 
   
-  model: "z-ai/glm-4.5-air:free"
+  model: "zai/glm-4.5-flash"
 
-  api_key: "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"                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: "3e39bf45e550432488283f824aeb6248.u48MMkn41J3xhLYp"                       # API Key（建议使用环境变量 AI_API_KEY）
   
-  api_base: "https://openrouter.ai/api/v1"                      # 自定义 API 端点（可选，大多数情况留空）
+  api_base: "https://open.bigmodel.cn/api/paas/v4/"                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
                                     #
                                     # 💡 超级重要：连接任意兼容 OpenAI 协议的模型商
